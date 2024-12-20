@@ -1,0 +1,50 @@
+.p1{
+    width: 100px;
+    height: 100px;
+    display: block;
+animation-duration: 5s;
+animation-delay: 0.1;
+animation-timing-function: linear;
+animation-name: rollingx;
+animation-iteration-count: infinite;
+border-radius: 30px;
+
+  }
+  @keyframes rollingx{
+    0%{
+        transform: translatex(200px) rotate(0deg);
+    }
+    50%{
+        transform: translatex(70vw) rotate(360deg);
+    }
+    100%{
+        transform: translatex(200px) rotate(-360deg)
+    }
+  }
+  .p2{
+    width: 100px;
+    height: 100px;
+    display: block;
+    animation-duration: 5s;
+    animation-delay: 0.1;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+    animation-name: rollingy;
+
+  }
+  @keyframes rollingy{
+    0%{
+        transform: translatey(0px) rotate(0deg)
+    }
+
+50%{
+    transform: translatey(70vh) rotate(360deg);
+}
+100%{
+    transform: translatey(0px) rotate(-360deg)
+}
+
+  
+}
+  
